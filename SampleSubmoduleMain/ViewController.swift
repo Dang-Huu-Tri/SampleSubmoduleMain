@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let testSampleModule = SampleSubmodulesProject()
         print(testSampleModule.sampleString)
-        let testDefaultProject = TestDefaultA()
+        let sampleDefaultProjectClass = TestDefaultA()
 //        let testDefaultProject = TestDefaultA()
 //        print(testDefaultProject.testVariable)
         // Do any additional setup after loading the view.
