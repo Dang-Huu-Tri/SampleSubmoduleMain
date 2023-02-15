@@ -1,0 +1,9 @@
+[submodule "Modules/SampleSubmodulesProject"]
+	path = Modules/SampleSubmodulesProject
+	url = git@github.com:Dang-Huu-Tri/SampleSubmodulesProject.git
+[submodule "/Users/geotech/Desktop/TriDH/Projects/Sample/SampleOfSubModule/SampleSubmoduleMain/Modules/DefaultProject"]
+	path = /Users/geotech/Desktop/TriDH/Projects/Sample/SampleOfSubModule/SampleSubmoduleMain/Modules/DefaultProject
+	url = git@github.com:Dang-Huu-Tri/sampleDefaultProject.git
+[submodule "Modules/SampleCoreProject"]
+	path = Modules/SampleCoreProject
+	url = git@github.com:Dang-Huu-Tri/SampleCoreProject.git

@@ -8,16 +8,20 @@
 import UIKit
 import SampleSubmodulesProject
 import SampleDefaultProject
+import SampleCoreProject
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let testSampleModule = SampleSubmodulesProject()
-        print(testSampleModule.sampleString)
-        let sampleDefaultProjectClass = TestDefaultA()
-//        let testDefaultProject = TestDefaultA()
-//        print(testDefaultProject.testVariable)
+        let testClassA = SampleSubmodulesProject()
+        print(testClassA.sampleString)
+        
+        let testClassB = SampleDefaultProject()
+        print(testClassB.sampleVariable)
+        
+        let testClassC = SampleCoreProject()
+        print(testClassC.sampleVariable)
         // Do any additional setup after loading the view.
     }
 
