@@ -16,7 +16,6 @@
 		B2A4ACB3299B28BE00AB0844 /* SampleSubmoduleMainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A4ACB2299B28BE00AB0844 /* SampleSubmoduleMainTests.swift */; };
 		B2A4ACBD299B28BE00AB0844 /* SampleSubmoduleMainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A4ACBC299B28BE00AB0844 /* SampleSubmoduleMainUITests.swift */; };
 		B2A4ACBF299B28BE00AB0844 /* SampleSubmoduleMainUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A4ACBE299B28BE00AB0844 /* SampleSubmoduleMainUITestsLaunchTests.swift */; };
-		B2A4AD41299BA08600AB0844 /* libSampleSubmodulesProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A4ACF1299B9EDA00AB0844 /* libSampleSubmodulesProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,20 +33,6 @@
 			remoteGlobalIDString = B2A4AC97299B28BD00AB0844;
 			remoteInfo = SampleSubmoduleMain;
 		};
-		B2A4ACF0299B9EDA00AB0844 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B2A4ACEC299B9EDA00AB0844 /* SampleSubmodulesProject.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B2A4ACE2299B9DF500AB0844;
-			remoteInfo = SampleSubmodulesProject;
-		};
-		B2A4ACF2299B9F3500AB0844 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B2A4ACEC299B9EDA00AB0844 /* SampleSubmodulesProject.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = B2A4ACE1299B9DF500AB0844;
-			remoteInfo = SampleSubmodulesProject;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -64,7 +49,6 @@
 		B2A4ACB8299B28BE00AB0844 /* SampleSubmoduleMainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleSubmoduleMainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2A4ACBC299B28BE00AB0844 /* SampleSubmoduleMainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSubmoduleMainUITests.swift; sourceTree = "<group>"; };
 		B2A4ACBE299B28BE00AB0844 /* SampleSubmoduleMainUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSubmoduleMainUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B2A4ACEC299B9EDA00AB0844 /* SampleSubmodulesProject.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SampleSubmodulesProject.xcodeproj; path = Modules/SampleModules/SampleSubmodulesProject/SampleSubmodulesProject.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +56,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2A4AD41299BA08600AB0844 /* libSampleSubmodulesProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +79,6 @@
 		B2A4AC8F299B28BD00AB0844 = {
 			isa = PBXGroup;
 			children = (
-				B2A4ACEC299B9EDA00AB0844 /* SampleSubmodulesProject.xcodeproj */,
 				B2A4AC9A299B28BD00AB0844 /* SampleSubmoduleMain */,
 				B2A4ACB1299B28BE00AB0844 /* SampleSubmoduleMainTests */,
 				B2A4ACBB299B28BE00AB0844 /* SampleSubmoduleMainUITests */,
@@ -146,14 +128,6 @@
 			path = SampleSubmoduleMainUITests;
 			sourceTree = "<group>";
 		};
-		B2A4ACED299B9EDA00AB0844 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B2A4ACF1299B9EDA00AB0844 /* libSampleSubmodulesProject.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		B2A4AD40299BA08600AB0844 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,7 +149,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				B2A4ACF3299B9F3500AB0844 /* PBXTargetDependency */,
 			);
 			name = SampleSubmoduleMain;
 			productName = SampleSubmoduleMain;
@@ -252,12 +225,6 @@
 			mainGroup = B2A4AC8F299B28BD00AB0844;
 			productRefGroup = B2A4AC99299B28BD00AB0844 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = B2A4ACED299B9EDA00AB0844 /* Products */;
-					ProjectRef = B2A4ACEC299B9EDA00AB0844 /* SampleSubmodulesProject.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				B2A4AC97299B28BD00AB0844 /* SampleSubmoduleMain */,
@@ -266,16 +233,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		B2A4ACF1299B9EDA00AB0844 /* libSampleSubmodulesProject.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libSampleSubmodulesProject.a;
-			remoteRef = B2A4ACF0299B9EDA00AB0844 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B2A4AC96299B28BD00AB0844 /* Resources */ = {
@@ -344,11 +301,6 @@
 			isa = PBXTargetDependency;
 			target = B2A4AC97299B28BD00AB0844 /* SampleSubmoduleMain */;
 			targetProxy = B2A4ACB9299B28BE00AB0844 /* PBXContainerItemProxy */;
-		};
-		B2A4ACF3299B9F3500AB0844 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SampleSubmodulesProject;
-			targetProxy = B2A4ACF2299B9F3500AB0844 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
