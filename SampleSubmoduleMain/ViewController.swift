@@ -13,11 +13,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let aa = SampleSubmodulesClass()
-        print(aa.sampleString)
-        
-        let testaa = TestDefaultA()
-        print(testaa.testVariable)
+        let testSampleModule = SampleSubmodulesProject()
+        print(testSampleModule.sampleString)
+        let testDefaultProject = TestDefaultA()
+//        let testDefaultProject = TestDefaultA()
+//        print(testDefaultProject.testVariable)
         // Do any additional setup after loading the view.
     }
 

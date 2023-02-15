@@ -17,7 +17,6 @@
 		B2A4ACBD299B28BE00AB0844 /* SampleSubmoduleMainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A4ACBC299B28BE00AB0844 /* SampleSubmoduleMainUITests.swift */; };
 		B2A4ACBF299B28BE00AB0844 /* SampleSubmoduleMainUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A4ACBE299B28BE00AB0844 /* SampleSubmoduleMainUITestsLaunchTests.swift */; };
 		B2A4AD41299BA08600AB0844 /* libSampleSubmodulesProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A4ACF1299B9EDA00AB0844 /* libSampleSubmodulesProject.a */; };
-		B2A4AD72299BE68900AB0844 /* SampleDefaultProject.app in Resources */ = {isa = PBXBuildFile; fileRef = B2A4AD6B299BE57E00AB0844 /* SampleDefaultProject.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,34 +48,6 @@
 			remoteGlobalIDString = B2A4ACE1299B9DF500AB0844;
 			remoteInfo = SampleSubmodulesProject;
 		};
-		B2A4AD6A299BE57E00AB0844 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B2A4AD64299BE57E00AB0844 /* SampleDefaultProject.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B2A4ACFD299B9FD600AB0844;
-			remoteInfo = SampleDefaultProject;
-		};
-		B2A4AD6C299BE57E00AB0844 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B2A4AD64299BE57E00AB0844 /* SampleDefaultProject.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B2A4AD13299B9FD700AB0844;
-			remoteInfo = SampleDefaultProjectTests;
-		};
-		B2A4AD6E299BE57E00AB0844 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B2A4AD64299BE57E00AB0844 /* SampleDefaultProject.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B2A4AD1D299B9FD700AB0844;
-			remoteInfo = SampleDefaultProjectUITests;
-		};
-		B2A4AD70299BE5E000AB0844 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B2A4AD64299BE57E00AB0844 /* SampleDefaultProject.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = B2A4ACFC299B9FD600AB0844;
-			remoteInfo = SampleDefaultProject;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -94,7 +65,6 @@
 		B2A4ACBC299B28BE00AB0844 /* SampleSubmoduleMainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSubmoduleMainUITests.swift; sourceTree = "<group>"; };
 		B2A4ACBE299B28BE00AB0844 /* SampleSubmoduleMainUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSubmoduleMainUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B2A4ACEC299B9EDA00AB0844 /* SampleSubmodulesProject.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SampleSubmodulesProject.xcodeproj; path = Modules/SampleModules/SampleSubmodulesProject/SampleSubmodulesProject.xcodeproj; sourceTree = "<group>"; };
-		B2A4AD64299BE57E00AB0844 /* SampleDefaultProject.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SampleDefaultProject.xcodeproj; path = Modules/SampleDefaultProject/SampleDefaultProject.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +96,6 @@
 		B2A4AC8F299B28BD00AB0844 = {
 			isa = PBXGroup;
 			children = (
-				B2A4AD64299BE57E00AB0844 /* SampleDefaultProject.xcodeproj */,
 				B2A4ACEC299B9EDA00AB0844 /* SampleSubmodulesProject.xcodeproj */,
 				B2A4AC9A299B28BD00AB0844 /* SampleSubmoduleMain */,
 				B2A4ACB1299B28BE00AB0844 /* SampleSubmoduleMainTests */,
@@ -192,16 +161,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B2A4AD65299BE57E00AB0844 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B2A4AD6B299BE57E00AB0844 /* SampleDefaultProject.app */,
-				B2A4AD6D299BE57E00AB0844 /* SampleDefaultProjectTests.xctest */,
-				B2A4AD6F299BE57E00AB0844 /* SampleDefaultProjectUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -216,7 +175,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				B2A4AD71299BE5E000AB0844 /* PBXTargetDependency */,
 				B2A4ACF3299B9F3500AB0844 /* PBXTargetDependency */,
 			);
 			name = SampleSubmoduleMain;
@@ -296,10 +254,6 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = B2A4AD65299BE57E00AB0844 /* Products */;
-					ProjectRef = B2A4AD64299BE57E00AB0844 /* SampleDefaultProject.xcodeproj */;
-				},
-				{
 					ProductGroup = B2A4ACED299B9EDA00AB0844 /* Products */;
 					ProjectRef = B2A4ACEC299B9EDA00AB0844 /* SampleSubmodulesProject.xcodeproj */;
 				},
@@ -321,27 +275,6 @@
 			remoteRef = B2A4ACF0299B9EDA00AB0844 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B2A4AD6B299BE57E00AB0844 /* SampleDefaultProject.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = SampleDefaultProject.app;
-			remoteRef = B2A4AD6A299BE57E00AB0844 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B2A4AD6D299BE57E00AB0844 /* SampleDefaultProjectTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SampleDefaultProjectTests.xctest;
-			remoteRef = B2A4AD6C299BE57E00AB0844 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B2A4AD6F299BE57E00AB0844 /* SampleDefaultProjectUITests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SampleDefaultProjectUITests.xctest;
-			remoteRef = B2A4AD6E299BE57E00AB0844 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -350,7 +283,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2A4ACA8299B28BE00AB0844 /* LaunchScreen.storyboard in Resources */,
-				B2A4AD72299BE68900AB0844 /* SampleDefaultProject.app in Resources */,
 				B2A4ACA5299B28BE00AB0844 /* Assets.xcassets in Resources */,
 				B2A4ACA3299B28BD00AB0844 /* Main.storyboard in Resources */,
 			);
@@ -417,11 +349,6 @@
 			isa = PBXTargetDependency;
 			name = SampleSubmodulesProject;
 			targetProxy = B2A4ACF2299B9F3500AB0844 /* PBXContainerItemProxy */;
-		};
-		B2A4AD71299BE5E000AB0844 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SampleDefaultProject;
-			targetProxy = B2A4AD70299BE5E000AB0844 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

@@ -1,6 +1,3 @@
 [submodule "Modules/SampleModules"]
 	path = Modules/SampleModules
 	url = git@github.com:Dang-Huu-Tri/SampleSubmodulesProject.git
-[submodule "SampleModules/SampleDefaultProject"]
-	path = SampleModules/SampleDefaultProject
-	url = git@github.com:Dang-Huu-Tri/sampleDefaultProject.git
