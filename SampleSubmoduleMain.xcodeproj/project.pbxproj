@@ -16,6 +16,8 @@
 		B2A4ACB3299B28BE00AB0844 /* SampleSubmoduleMainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A4ACB2299B28BE00AB0844 /* SampleSubmoduleMainTests.swift */; };
 		B2A4ACBD299B28BE00AB0844 /* SampleSubmoduleMainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A4ACBC299B28BE00AB0844 /* SampleSubmoduleMainUITests.swift */; };
 		B2A4ACBF299B28BE00AB0844 /* SampleSubmoduleMainUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A4ACBE299B28BE00AB0844 /* SampleSubmoduleMainUITestsLaunchTests.swift */; };
+		B2A4AD41299BA08600AB0844 /* libSampleSubmodulesProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A4ACF1299B9EDA00AB0844 /* libSampleSubmodulesProject.a */; };
+		B2A4AD72299BE68900AB0844 /* SampleDefaultProject.app in Resources */ = {isa = PBXBuildFile; fileRef = B2A4AD6B299BE57E00AB0844 /* SampleDefaultProject.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,48 @@
 			remoteGlobalIDString = B2A4AC97299B28BD00AB0844;
 			remoteInfo = SampleSubmoduleMain;
 		};
+		B2A4ACF0299B9EDA00AB0844 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2A4ACEC299B9EDA00AB0844 /* SampleSubmodulesProject.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B2A4ACE2299B9DF500AB0844;
+			remoteInfo = SampleSubmodulesProject;
+		};
+		B2A4ACF2299B9F3500AB0844 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2A4ACEC299B9EDA00AB0844 /* SampleSubmodulesProject.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B2A4ACE1299B9DF500AB0844;
+			remoteInfo = SampleSubmodulesProject;
+		};
+		B2A4AD6A299BE57E00AB0844 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2A4AD64299BE57E00AB0844 /* SampleDefaultProject.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B2A4ACFD299B9FD600AB0844;
+			remoteInfo = SampleDefaultProject;
+		};
+		B2A4AD6C299BE57E00AB0844 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2A4AD64299BE57E00AB0844 /* SampleDefaultProject.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B2A4AD13299B9FD700AB0844;
+			remoteInfo = SampleDefaultProjectTests;
+		};
+		B2A4AD6E299BE57E00AB0844 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2A4AD64299BE57E00AB0844 /* SampleDefaultProject.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B2A4AD1D299B9FD700AB0844;
+			remoteInfo = SampleDefaultProjectUITests;
+		};
+		B2A4AD70299BE5E000AB0844 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2A4AD64299BE57E00AB0844 /* SampleDefaultProject.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B2A4ACFC299B9FD600AB0844;
+			remoteInfo = SampleDefaultProject;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +93,8 @@
 		B2A4ACB8299B28BE00AB0844 /* SampleSubmoduleMainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleSubmoduleMainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2A4ACBC299B28BE00AB0844 /* SampleSubmoduleMainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSubmoduleMainUITests.swift; sourceTree = "<group>"; };
 		B2A4ACBE299B28BE00AB0844 /* SampleSubmoduleMainUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSubmoduleMainUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B2A4ACEC299B9EDA00AB0844 /* SampleSubmodulesProject.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SampleSubmodulesProject.xcodeproj; path = Modules/SampleModules/SampleSubmodulesProject/SampleSubmodulesProject.xcodeproj; sourceTree = "<group>"; };
+		B2A4AD64299BE57E00AB0844 /* SampleDefaultProject.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SampleDefaultProject.xcodeproj; path = Modules/SampleDefaultProject/SampleDefaultProject.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2A4AD41299BA08600AB0844 /* libSampleSubmodulesProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +126,13 @@
 		B2A4AC8F299B28BD00AB0844 = {
 			isa = PBXGroup;
 			children = (
+				B2A4AD64299BE57E00AB0844 /* SampleDefaultProject.xcodeproj */,
+				B2A4ACEC299B9EDA00AB0844 /* SampleSubmodulesProject.xcodeproj */,
 				B2A4AC9A299B28BD00AB0844 /* SampleSubmoduleMain */,
 				B2A4ACB1299B28BE00AB0844 /* SampleSubmoduleMainTests */,
 				B2A4ACBB299B28BE00AB0844 /* SampleSubmoduleMainUITests */,
 				B2A4AC99299B28BD00AB0844 /* Products */,
+				B2A4AD40299BA08600AB0844 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +177,31 @@
 			path = SampleSubmoduleMainUITests;
 			sourceTree = "<group>";
 		};
+		B2A4ACED299B9EDA00AB0844 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2A4ACF1299B9EDA00AB0844 /* libSampleSubmodulesProject.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2A4AD40299BA08600AB0844 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2A4AD65299BE57E00AB0844 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2A4AD6B299BE57E00AB0844 /* SampleDefaultProject.app */,
+				B2A4AD6D299BE57E00AB0844 /* SampleDefaultProjectTests.xctest */,
+				B2A4AD6F299BE57E00AB0844 /* SampleDefaultProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,6 +216,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				B2A4AD71299BE5E000AB0844 /* PBXTargetDependency */,
+				B2A4ACF3299B9F3500AB0844 /* PBXTargetDependency */,
 			);
 			name = SampleSubmoduleMain;
 			productName = SampleSubmoduleMain;
@@ -217,6 +294,16 @@
 			mainGroup = B2A4AC8F299B28BD00AB0844;
 			productRefGroup = B2A4AC99299B28BD00AB0844 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B2A4AD65299BE57E00AB0844 /* Products */;
+					ProjectRef = B2A4AD64299BE57E00AB0844 /* SampleDefaultProject.xcodeproj */;
+				},
+				{
+					ProductGroup = B2A4ACED299B9EDA00AB0844 /* Products */;
+					ProjectRef = B2A4ACEC299B9EDA00AB0844 /* SampleSubmodulesProject.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B2A4AC97299B28BD00AB0844 /* SampleSubmoduleMain */,
@@ -226,12 +313,44 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		B2A4ACF1299B9EDA00AB0844 /* libSampleSubmodulesProject.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSampleSubmodulesProject.a;
+			remoteRef = B2A4ACF0299B9EDA00AB0844 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B2A4AD6B299BE57E00AB0844 /* SampleDefaultProject.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SampleDefaultProject.app;
+			remoteRef = B2A4AD6A299BE57E00AB0844 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B2A4AD6D299BE57E00AB0844 /* SampleDefaultProjectTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SampleDefaultProjectTests.xctest;
+			remoteRef = B2A4AD6C299BE57E00AB0844 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B2A4AD6F299BE57E00AB0844 /* SampleDefaultProjectUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SampleDefaultProjectUITests.xctest;
+			remoteRef = B2A4AD6E299BE57E00AB0844 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		B2A4AC96299B28BD00AB0844 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B2A4ACA8299B28BE00AB0844 /* LaunchScreen.storyboard in Resources */,
+				B2A4AD72299BE68900AB0844 /* SampleDefaultProject.app in Resources */,
 				B2A4ACA5299B28BE00AB0844 /* Assets.xcassets in Resources */,
 				B2A4ACA3299B28BD00AB0844 /* Main.storyboard in Resources */,
 			);
@@ -293,6 +412,16 @@
 			isa = PBXTargetDependency;
 			target = B2A4AC97299B28BD00AB0844 /* SampleSubmoduleMain */;
 			targetProxy = B2A4ACB9299B28BE00AB0844 /* PBXContainerItemProxy */;
+		};
+		B2A4ACF3299B9F3500AB0844 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SampleSubmodulesProject;
+			targetProxy = B2A4ACF2299B9F3500AB0844 /* PBXContainerItemProxy */;
+		};
+		B2A4AD71299BE5E000AB0844 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SampleDefaultProject;
+			targetProxy = B2A4AD70299BE5E000AB0844 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -445,6 +574,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,6 +582,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = test.calendar.control.SampleSubmoduleMain;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -473,6 +606,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,6 +614,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = test.calendar.control.SampleSubmoduleMain;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
